@@ -4,7 +4,10 @@
 html{
     background: black;
 }
-.content{
+body {
+    background: black;
+}
+.container{
     background: yellowgreen;
 }
 .col-sm-3 {   
@@ -23,6 +26,7 @@ html{
     align-self: flex-end;
     background: white;
 }
-.carousel-inner > .item > img {
+.carousel-inner > .carousel-item > img {
+    align-self: center;
     margin: 0 auto;
   }
